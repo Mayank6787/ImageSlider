@@ -1,0 +1,18 @@
+.Container {
+  border: 1px solid black;
+  margin: 25px auto; /* Centers the div horizontally */
+  width: 50%;
+  border-radius: 15px;
+  min-width: 250px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow */
+  backdrop-filter: blur(10px); /* Adds blur to the background */
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth 
+  transition */
+  padding-left: 55px;
+}
+
+.Container:hover {
+  box-shadow: 0 0 10px rgba(114, 116, 116, 0.8); /* Glow effect */
+}
